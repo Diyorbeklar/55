@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300;400;500;700&display=swap'); 
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+    
+    }
+ header {
+    position: absolute;
+    width: 1200px;;
+    height: 60px;
+    left: calc(50% - 1200px/2);
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+header .brand h1 {
+    color: #F1CDB3;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    
+}
+
+header .brand p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #fff;
+}
+
+header .navigation {
+    position: relative;
+}
+
+header .navigation a {
+    margin: 0px 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-decoration: none;
+    transition: .5s ease;
+    color: #CDCDCD;
+    z-index: 1;
+}
+
+header .navigation a:hover {
+    border-bottom: 2px solid  #F1CDB3;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 860px;
+    display: flex;
+    align-items: center;
+    background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.main .content {
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    left: calc(50% - 1200px/2);
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.img-dog {
+    position: relative;
+    width: 698px;
+    height: 728px;
+}
+
+.main .content h2 {
+    margin-top: 112px;
+    color: #fff;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    margin-bottom: 52px;
+}
+
+.main .content p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    margin-bottom: 52px;
+}
+.btn {
+    color: #000;
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    align-items: center;
+    padding: 15px 45px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    transition: .5s ease;
+}
+
+.About .content1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.About .content1 .col-left {
+    position: relative;
+    width: 50%;
+}
+
+.About .content1 .col-right {
+    position: relative;
+    width: 50%;
+}
+.About .content1 ,img-card {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+}
+.About .content1 .img-card img {
+    position: absolute;
+    width: 300px;
+    height: 408px;
+    left: 50%;
+    top: 0px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+}
+.content-title {
+    color: #545454;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+}
+
+.content-p1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
+.content-p2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+/* or 24px */
+    color: #4C4C4C;
+    display: flex;
+    align-items: center;
+}
+
+.cards .content2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.cards .content2  .card {
+    background: #FAFAFA;
+    width: 270px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9px;
+}
+
+.arrow-card-left  {
+    display: relative;
+    margin-top: 220px;
+} 
+.arrow-card-right {
+    display: relative;
+    margin-top: 220px;
+} 
+.p-card {
+    text-align: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #545454;
+}
+.btn-cards {
+    color: white;
+    width: 11.56rem;
+    height: 3.25rem;
+    padding: 6px 0 5px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:  15%;
+    cursor: pointer;
+    background-color: #FAFAFA; 
+    color: #292929; 
+    border: 2px solid #f1cdb3;
+    justify-content: center;
+    border-radius:50px ;
+    text-align: center;
+}
+.section-title {
+  text-align: center;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+}
+.button-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.click-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3 ;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    color: #292929;
+    margin-left:calc(50%-130px) ;
+    margin-bottom: 30px;
+}
+
+.service-row-1 {
+    margin: 60px 65px;
+}
+.service-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.service-row-2 {
+  
+    margin: 60px 65px;
+}
+
+.content3 {
+    position: relative;
+    width: 100%;
+    height: 462px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background: #F6F6F6;
+  }
+
+.col-column-left {
+    width: 50%;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+.col-column-right {
+    width: 50%;
+    position: relative;
+    margin-right: 30%;
+    margin-top: 100px;
+}
+.donation-h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+}
+.donation-h5 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    color: #545454;
+}
+.donation-credit-card {
+    margin: 10px 0;
+}
+.donation-p {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+
+footer {
+    position: relative;
+    height: 350px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #211F20;   
+}
+
+.col-left {
+    
+    position: relative;
+    margin-top: 56px;
+    margin-right: 80px;
+}
+.col-between {
+    
+    position: relative;
+    margin-top: 56px;
+    margin-right: 80px;
+}
+.col-right {
+  
+    position: relative;
+    margin-top: 36px;
+}
+.footer-h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.footer-p {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    color: #F1CDB3;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+@media   (max-width: 1279px) and (min-width: 768px) {
+    header {
+        width: 708px;
+        left: calc(50% - 708px/2);
+        top: 30px;
+        
+     }
+     .main {
+        height: 1165px;
+        background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+
+    }
+
+
+    .main .content {
+        flex-direction: column;
+        position: absolute;
+        width: 569px;
+        height: 1015px;
+        left: 99px;
+        top: 150px;
+
+    } 
+    .img-dog {
+        width: 569px;
+        height: 560px;
+        left: calc(50% - 569px/2 + 70px);
+    }
+   .About {
+    height: 1048px;
+   }
+
+
+    .About .content1 {
+        flex-direction: column;
+        
+        margin-top: 0px;
+    }
+    .About .content1 .col-left {
+        width: 100%;
+        left: calc(25%);
+        
+    }
+    .About .content1 .col-right {
+        width: 100%;
+        left: calc(25%);
+    }
+    .About .content1 .img-card img  {
+        width: 300px;
+        height: 408px;
+        left: 69px;
+        top: 480px;
+         
+    }
+    .card-delete {
+        display: none;
+    }
+    .cards .content2  .card {
+        background: #FAFAFA;
+        width: 270px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 9px;
+    }
+    .service-row-1 {
+        margin: 0px;
+    }
+
+    .service-icon {
+        margin: 0px ;
+    }
+    .service-row-2 {
+        margin: 0px;
+    }
+    .service-icon {
+        margin: 60px  60px;
+    }
+    .content3 {
+        flex-direction: column;
+        height: 783px;
+    }
+    .col-column-left {
+        top: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-column-right {
+        bottom: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .donation-img {
+        width: 505px;
+        height: 261px;
+    }
+    footer {
+        height: 639px;
+       
+    }
+
+    .col-right {
+        display: none;
+          }
+} 
+
+@media   (max-width: 768px) and (min-width: 320px) { 
+    header {
+        width: 257px;
+        left: calc(50% - 257px/2);
+        top: 30px;
+        
+     }
+     .main {
+        width: 100%;
+        background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+
+    }
+
+
+    .main .content {
+        flex-direction: column;
+        width: 300px;
+        height: 600px;
+        left: 10px;
+         top: 0px;
+         align-items: center;
+
+    } 
+    .img-dog {
+        top: 98px;
+        width: 260px;
+        height: 271px;
+        left: calc(50% - 190px/2);
+    }
+    .About .content1 {
+        flex-direction: column;
+        height: 1000px;
+        margin-top: 0px;
+        justify-content: flex-start;
+    }
+    .About .content1 .col-left {
+        width: 100%;
+
+        
+    }
+    .About .content1 .col-right {
+        width: 100%;
+    }
+    .About .content1 .img-card img  {
+        width: 300px;
+        height: 408px;
+        top: 600px;
+        left: 0px;
+         
+    }
+    .main .content h2 {
+    margin-top: 20px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    left: 50px;
+    }
+    .main .content p {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    }
+    .btn {
+        width: 207px;
+        height: 52px;
+        margin-left:  calc(50% - 207px/2 - 0.5px);
+        bottom: 0px;
+    }
+    .content-title  {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: center;
+    margin-left: 50px;
+    }
+    .content-p1 {
+        font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+text-align: center;
+    }
+     .content1 {
+        flex-direction: column;
+    }
+    .service-icon {
+        margin: 17px  17px;
+    }
+    .content3 {
+        flex-direction: column;
+        height: 783px;
+    }
+    .col-column-left {
+        top: 400px;
+        margin-left: 30px;
+    }
+    .col-column-right {
+        bottom: 330px;
+        margin-left: 30px;
+    }
+    .donation-img {
+        width: 260px;
+        height: 135.2px;
+    }
+    .donation-credit-card {
+        width: 281px;
+         height: 43px;
+    }
+
+    .navigation {
+        display: none;
+    } 
+    .donation-h3 {
+        font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+    }
+  
+ footer {
+    height: 800px;
+    flex-direction: column;
+    text-align: center;
+ }
+
+ .footer-h3 {
+    left: calc(50% - 378px/2);
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+ }
+ .footer-p {
+    left: calc(50% - 258.28px/2 + 40.86px);
+ }
+ .footer-puppy {
+    width: 260px;
+    height: 269px;
+    left: calc(50% - 260px/2);
+ }
+ .navigation.active {
+     z-index: 888;
+     position: fixed;
+     background: #292929;
+     top: 0;
+     right: 0;
+     width: 320px;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     box-shadow: 0 5px 25px rgba(1, 1, 1,15% );
+     transition: .3s ease ;
+ }
+
+
+ .menu-btn {
+     position: absolute;
+     background: url(../../assets/icons/Burgerbtn.png) no-repeat;
+     background-size: 30px;
+     background-position: center;
+     width: 40px;
+     height: 40px;
+     right: 0;
+     margin: 0 20px;
+     cursor: pointer;
+     transition: .4s ease;
+ }
+
+.menu-btn.active {
+    z-index: 999;
+    background: url(/assets/icons/Burger.png) no-repeat;
+    background-size: 30px;
+    background-position: center;
+    transition: .3s ease;
+ 
+}
+
+
+
+header .navigation a {
+    color: #fff;
+    font-size: 22px;
+    margin: 10px;
+    padding: 0 20px;
+}
+
+ 
+    .delete-1 {
+        display: none;
+      }
+}
